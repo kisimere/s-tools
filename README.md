@@ -1,1 +1,1 @@
-# Builds for DWM and co
+# build for dwm and co
