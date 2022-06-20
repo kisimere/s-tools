@@ -163,7 +163,7 @@ static void detachstack(Client *c);
 static Monitor *dirtomon(int dir);
 static void drawbar(Monitor *m);
 static void drawbars(void);
-static void enternotify(XEvent *e);
+//#static void enternotify(XEvent *e); disable mouse follow
 static void expose(XEvent *e);
 static void focus(Client *c);
 static void focusin(XEvent *e);
