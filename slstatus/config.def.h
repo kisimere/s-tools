@@ -71,8 +71,7 @@ static const struct arg args[] = {
 	{ wifi_essid, "[   %s ",           "wlp3s0" },
 	{ netspeed_rx, "   %sB/s ",           "wlp3s0" },
 	{ netspeed_tx, "   %sB/s ]",           "wlp3s0" },
-	{ battery_state, "[   %s ",           "BAT0" },
-	{ battery_perc, "%s%% ]",           "BAT0" },
+	{ battery_perc, "[  %s%% ]",           "BAT0" },
 	{ keymap, "[   %s ] ",           NULL },
-	{ datetime, "[   %s ] ",           "%F %R" },
+	{ datetime, "[   %s ]",           "%F %R" },
 };
