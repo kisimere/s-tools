@@ -72,6 +72,7 @@ static const struct arg args[] = {
 	{ netspeed_rx, "   %sB/s ",           "wlp3s0" },
 	{ netspeed_tx, "   %sB/s ]",           "wlp3s0" },
 	{ run_command, "[   %s ]",           "acpi | cut -d ' ' -f 4 | cut -d ',' -f 1 " },
+	{ run_command, "[   %s ]",           "pactl list sinks | tr ' ' '\n' | grep -m1 '%'" },
 	{ keymap, "[   %s ] ",           NULL },
 	{ datetime, "[   %s ]",           "%F %R" },
 };
